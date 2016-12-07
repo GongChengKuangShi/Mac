@@ -29,12 +29,11 @@ static NSString *const CellIdentifer = @"Cell";
     [collectionView registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier:CellIdentifer];
     [self.view addSubview:collectionView];
     
-    NSLog(@"--------");
-    NSLog(@"++++++++");
-    
-    NSLog(@"_+_+_+_+_+_+");
-    NSLog(@"+_+");
-    
+    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(10, 100, 100, 100)];
+    label.text = @"";
+    label.textColor = [UIColor redColor];
+    label.textAlignment = NSTextAlignmentCenter;
+    label.font = [UIFont systemFontOfSize:12];
 }
 
 
