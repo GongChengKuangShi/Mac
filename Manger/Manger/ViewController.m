@@ -31,6 +31,10 @@ static NSString *const CellIdentifer = @"Cell";
     
     NSLog(@"--------");
     NSLog(@"++++++++");
+    
+    NSLog(@"_+_+_+_+_+_+");
+    NSLog(@"+_+");
+    
 }
 
 
