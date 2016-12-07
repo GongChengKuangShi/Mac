@@ -28,6 +28,9 @@ static NSString *const CellIdentifer = @"Cell";
     [collectionView setDelegate:self];
     [collectionView registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier:CellIdentifer];
     [self.view addSubview:collectionView];
+    
+    NSLog(@"--------");
+    NSLog(@"++++++++");
 }
 
 
