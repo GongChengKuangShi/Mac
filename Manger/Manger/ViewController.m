@@ -65,6 +65,10 @@ static NSString *const CellIdentifer = @"Cell";
     return cell;
 }
 
+- (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
+    
+}
+
 #pragma mark - water
 
 - (CGFloat)waterFlowLayout:(WaterFlowLayout *)layout heightForItenAtIndex:(NSInteger)index itemWidth:(CGFloat)itemWidth {
